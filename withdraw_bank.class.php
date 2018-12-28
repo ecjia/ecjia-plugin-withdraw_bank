@@ -85,9 +85,14 @@ class withdraw_bank extends WithdrawAbstract
         return $this->loadPluginData(RC_Plugin::plugin_dir_path(__FILE__) . '/languages/'.$locale.'/plugin.lang.php', $key, $default);
     }
 
-
+    /**
+     * 转帐操作方法
+     * @return mixed
+     */
     public function transfers()
-    {}
+    {
+
+    }
     
 }
 
