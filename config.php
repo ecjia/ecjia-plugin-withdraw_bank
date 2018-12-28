@@ -46,8 +46,8 @@
 //
 defined('IN_ECJIA') or exit('No permission resources.');
 return array(
-    'pay_code'      => 'withdraw_bank',
-	'is_online' 	=> '0', 	/* 是否支持在线提现 */
+    'withdraw_code'     => 'withdraw_bank',
+	'is_online' 	    => '0', 	/* 是否支持在线提现 */
 
 	'forms' => array(
 	),
