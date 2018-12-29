@@ -86,6 +86,15 @@ class withdraw_bank extends WithdrawAbstract
     }
 
     /**
+     * 获取用户绑定的提现方式
+     * @return mixed
+     */
+    public function getBankType()
+    {
+        return 'bank';
+    }
+
+    /**
      * 转帐操作方法
      * @return mixed
      */
