@@ -96,9 +96,10 @@ class withdraw_bank extends WithdrawAbstract
 
     /**
      * 转帐操作方法
-     * @return mixed
+     * @param $order_sn
+     * @return \Royalcms\Component\Support\Collection | ecjia_error
      */
-    public function transfers()
+    public function transfers($order_sn)
     {
 
     }
