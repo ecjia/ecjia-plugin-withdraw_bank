@@ -103,6 +103,16 @@ class withdraw_bank extends WithdrawAbstract
     {
 
     }
+
+    /**
+     * 转帐查询方法
+     * @param $order_sn
+     * @return \Royalcms\Component\Support\Collection | \ecjia_error
+     */
+    public function transfersQuery($order_sn)
+    {
+        return new ecjia_error('银行转账提现不支持查询对账功能。');
+    }
     
 }
 
