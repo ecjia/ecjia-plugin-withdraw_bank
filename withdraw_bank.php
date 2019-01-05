@@ -45,7 +45,7 @@
 //  ---------------------------------------------------------------------------------
 //
 /*
-Plugin Name: 银行转帐提现
+Plugin Name: 银行转账提现
 Plugin URI: http://www.ecjia.com/plugins/ecjia.withdraw_bank/
 Description: 需要财务人员线下打款给申请提现的用户。
 Author: ECJIA TEAM

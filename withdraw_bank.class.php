@@ -45,7 +45,7 @@
 //  ---------------------------------------------------------------------------------
 //
 /**
- * 银行汇款（转帐）插件
+ * 银行汇款（转账）插件
  */
 defined('IN_ECJIA') or exit('No permission resources.');
 
@@ -95,7 +95,7 @@ class withdraw_bank extends WithdrawAbstract
     }
 
     /**
-     * 转帐操作方法
+     * 转账操作方法
      * @param $order_sn
      * @return \Royalcms\Component\Support\Collection | ecjia_error
      */
@@ -105,7 +105,7 @@ class withdraw_bank extends WithdrawAbstract
     }
 
     /**
-     * 转帐查询方法
+     * 转账查询方法
      * @param $order_sn
      * @return \Royalcms\Component\Support\Collection | \ecjia_error
      */
