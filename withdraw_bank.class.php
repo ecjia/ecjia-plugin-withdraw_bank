@@ -117,7 +117,7 @@ class withdraw_bank extends WithdrawAbstract
      */
     public function transfersQuery($order_sn)
     {
-        return new ecjia_error('bank_transfer_not_support', '银行转账提现不支持查询对账功能');
+        return new ecjia_error('bank_transfer_not_support', __('银行转账提现不支持查询对账功能', 'withdraw_bank'));
     }
     
 }
