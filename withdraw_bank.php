@@ -72,6 +72,7 @@ class plugin_withdraw_bank {
 }
 
 Ecjia_PluginManager::extend('withdraw_bank', function() {
+    RC_Locale::loadPluginTextdomain('withdraw_bank');
     require_once RC_Plugin::plugin_dir_path(__FILE__) . 'withdraw_bank.class.php';
     return new withdraw_bank();
 });
