@@ -52,6 +52,7 @@ Author: ECJIA TEAM
 Version: 1.30.0
 Author URI: http://www.ecjia.com/
 Plugin App: withdraw
+Text Domain: withdraw_bank
 */
 defined('IN_ECJIA') or exit('No permission resources.');
 class plugin_withdraw_bank {
